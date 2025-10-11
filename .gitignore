@@ -1,0 +1,53 @@
+# Pasta de configurações do Visual Studio
+.vs/
+
+# Pastas de compilação (Build artifacts)
+**/[Bb]in/
+**/[Oo]bj/
+
+# Arquivos de usuário e soluções temporárias
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de cache e de debug do Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Cache do Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Arquivos de resultados de testes
+TestResults/
+*.trx
+
+# Arquivos de log
+*.log
+logs/
+
+# Pacotes NuGet (para estilos de projeto mais antigos)
+**/packages/*
+# Evitar pacotes em cache no diretório do projeto
+!**/packages/repositories.config
+
+# Arquivos de segredos do usuário (User Secrets)
+# Geralmente o ID está no .csproj e o arquivo JSON em %APPDATA%\Microsoft\UserSecrets\
+secrets.json
+usersecrets.secrets.json
+
+# Arquivos de configuração de ambiente local
+# É uma boa prática não commitar as configurações de desenvolvimento,
+# pois podem conter connection strings ou chaves locais.
+appsettings.Development.json
+
+# Arquivos gerados pelo sistema operacional
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
